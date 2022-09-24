@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap');
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.wrapper{
+	width: 810px;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: "Lato";
+	font-style: normal;
+	text-align: left;
+
+}
+
+h1{
+	margin-bottom: 40px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	text-shadow: 1px 3px 3px gray;
+}
+
+.image{
+	width: 100%;
+	margin-bottom: 60px;
+	box-shadow: 3px 3px 4px gray;
+}
+
+.text{
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	text-shadow: 2px 2px 3px gray;
+}
+
+.block{
+	margin-bottom: 48px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-shadow: 1px 2px 3px gray;
+}
+
+.text2{
+	margin-bottom: 24px;
+}
+
+.block2{
+	padding-left: 60px;
+	margin-bottom: 48px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;	
+}
+
+.block3{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-shadow: 1px 2px 3px gray;
+	margin-bottom: 100px;
+}
+
+.amet{
+	margin-bottom: 24px;
+}
+
+.list{
+	padding-left: 40px;
+	margin-bottom: 24px;
+}
+
+.example{
+	font-family: "Playfair Display";
+}
+
+.experement{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	background-color: rgba(88, 106, 88, 0.555);
+	border-radius: 25px 10px 40px 35px;
+	padding: 15px;
+	margin-bottom: 50px;
+	box-shadow: inset 2px 2px 5px 3px rgb(117, 188, 188), 2px 2px 5px 5px rgb(63, 243, 183);
+}
+
+a{
+	margin: 0px 15px;
+	font-weight: 900;
+	font-size: 50px;
+	border-top: 5px solid rgb(79, 202, 213);
+	border-right: 5px dotted rgb(226, 117, 197);
+	border-bottom: 5px double rgb(85, 143, 44);
+	border-left: 5px dashed rgb(227, 227, 108);
+}
+
+
+
+.experement2{
+	margin: 30px 30px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	overflow: scroll;
+	max-height: 100px;
+	background-color: rgb(240, 183, 162);
+}
+
+.experement3{
+	background-color: rgb(145, 240, 242);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	outline-style: dashed;
+	outline-color: rgb(79, 79, 166);
+	visibility: hidden;
+	margin-bottom: 30px;
+}
+
+.ending{
+	background-color: rgb(235, 235, 133);
+	font-weight: 400;
+	border-radius: 30px 30px;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-shadow: 2px 3px 5px 3px rgb(16, 16, 224), 1px 2px 3px 5px rgb(70, 70, 134);
+}
+
+footer{
+	padding: 10px;
+}
